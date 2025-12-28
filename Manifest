@@ -1,0 +1,294 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest
+  android:compileSdkVersion="35"
+  android:compileSdkVersionCodename="15"
+  android:installLocation="auto"
+  android:versionCode="5526"
+  android:versionName="5.446.0"
+  package="com.hsh.me"
+  platformBuildVersionCode="35"
+  platformBuildVersionName="15"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+  <uses-sdk
+    android:minSdkVersion="25"
+    android:targetSdkVersion="35"/>
+  <uses-feature
+    android:name="android.hardware.camera"
+    android:required="false"/>
+  <uses-feature
+    android:name="android.hardware.camera.autofocus"
+    android:required="false"/>
+  <uses-feature
+    android:name="android.hardware.camera.flash"
+    android:required="false"/>
+  <uses-feature
+    android:name="android.hardware.telephony"
+    android:required="false"/>
+  <uses-feature
+    android:name="android.hardware.location.gps"
+    android:required="false"/>
+  <uses-feature
+    android:name="android.hardware.touchscreen"
+    android:required="false"/>
+  <uses-feature
+    android:glEsVersion="0x20000"
+    android:required="true"/>
+  <permission
+    android:name="com.hsh.me.ACCESS_CACHE_PROVIDER"
+    android:protectionLevel="signature"/>
+  <permission
+    android:name="com.hsh.me.location.Permission.UPDATE"
+    android:protectionLevel="signature"/>
+  <uses-permission android:name="android.permission.INTERNET"/>
+  <uses-permission android:name="android.permission.GET_ACCOUNTS"/>
+  <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"/>
+  <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
+  <uses-permission android:name="com.google.android.gms.permission.ACTIVITY_RECOGNITION"/>
+  <uses-permission android:name="android.permission.READ_PHONE_STATE"/>
+  <uses-permission android:name="android.permission.USE_CREDENTIALS"/>
+  <uses-permission android:name="android.permission.CAMERA"/>
+  <uses-permission android:name="android.permission.VIBRATE"/>
+  <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+  <uses-permission android:name="android.permission.CHANGE_NETWORK_STATE"/>
+  <uses-permission android:name="android.permission.ACCESS_WIFI_STATE"/>
+  <uses-permission android:name="android.permission.CHANGE_WIFI_STATE"/>
+  <uses-permission
+    android:maxSdkVersion="32"
+    android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+  <uses-permission android:name="android.permission.WAKE_LOCK"/>
+  <uses-permission android:name="com.android.vending.CHECK_LICENSE"/>
+  <uses-permission android:name="android.permission.RECORD_AUDIO"/>
+  <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS"/>
+  <uses-permission android:name="android.permission.FOREGROUND_SERVICE"/>
+  <uses-permission android:name="com.android.launcher.permission.INSTALL_SHORTCUT"/>
+  <uses-permission android:name="com.android.launcher.permission.READ_SETTINGS"/>
+  <uses-permission
+    android:maxSdkVersion="28"
+    android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+  <queries>
+    <intent>
+      <action android:name="android.intent.action.VIEW"/>
+      <category android:name="android.intent.category.BROWSABLE"/>
+    </intent>
+    <package android:name="com.facebook.katana"/>
+    <intent>
+      <action android:name="android.intent.action.SENDTO"/>
+      <data android:mimeType="message/rfc822"/>
+    </intent>
+    <intent>
+      <action android:name="android.intent.action.SEND"/>
+    </intent>
+    <intent>
+      <action android:name="android.intent.action.SEND_MULTIPLE"/>
+    </intent>
+    <intent>
+      <action android:name="android.media.action.IMAGE_CAPTURE"/>
+    </intent>
+    <package android:name="com.whatsapp"/>
+    <package android:name="com.facebook.orca"/>
+    <package android:name="org.telegram.messenger"/>
+    <package android:name="com.google.android.apps.plus"/>
+    <package android:name="com.google.android.apps.maps"/>
+    <intent>
+      <action android:name="android.support.customtabs.action.CustomTabsService"/>
+    </intent>
+    <intent>
+      <action android:name="android.intent.action.GET_CONTENT"/>
+      <data android:mimeType="image/*"/>
+    </intent>
+    <intent>
+      <action android:name="android.intent.action.GET_CONTENT"/>
+      <data android:mimeType="video/*"/>
+    </intent>
+    <intent>
+      <action android:name="android.intent.action.APPLICATION_MESSAGE_UPDATE"/>
+    </intent>
+    <intent>
+      <action android:name="org.adw.launcher.counter.SEND"/>
+    </intent>
+    <intent>
+      <action android:name="com.anddoes.launcher.COUNTER_CHANGED"/>
+    </intent>
+    <intent>
+      <action android:name="android.intent.action.BADGE_COUNT_UPDATE"/>
+    </intent>
+    <intent>
+      <action android:name="android.intent.action.BADGE_COUNT_UPDATE"/>
+    </intent>
+    <intent>
+      <action android:name="android.intent.action.BADGE_COUNT_UPDATE"/>
+    </intent>
+    <intent>
+      <action android:name="com.htc.launcher.action.UPDATE_SHORTCUT"/>
+    </intent>
+    <intent>
+      <action android:name="com.htc.launcher.action.SET_NOTIFICATION"/>
+    </intent>
+    <intent>
+      <action android:name="com.oppo.unsettledevent"/>
+    </intent>
+    <package android:name="com.venmo"/>
+    <package android:name="com.paypal.android.p2pme"/>
+    <intent>
+      <action android:name="android.intent.action.VIEW"/>
+      <category android:name="android.intent.category.BROWSABLE"/>
+      <data android:scheme="https"/>
+    </intent>
+    <intent>
+      <action android:name="com.android.vending.billing.InAppBillingService.BIND"/>
+    </intent>
+    <intent>
+      <action android:name="com.google.android.apps.play.billingtestcompanion.BillingOverrideService.BIND"/>
+    </intent>
+    <intent>
+      <action android:name="com.applovin.am.intent.action.APPHUB_SERVICE"/>
+    </intent>
+    <intent>
+      <action android:name="android.intent.action.INSERT"/>
+      <data android:mimeType="vnd.android.cursor.dir/event"/>
+    </intent>
+    <intent>
+      <action android:name="android.intent.action.VIEW"/>
+      <data android:scheme="sms"/>
+    </intent>
+    <intent>
+      <action android:name="android.intent.action.DIAL"/>
+      <data android:path="tel:"/>
+    </intent>
+    <intent>
+      <action android:name="com.appsflyer.referrer.INSTALL_PROVIDER"/>
+    </intent>
+    <package android:name="com.instagram.android"/>
+    <intent>
+      <action android:name="android.intent.action.MAIN"/>
+    </intent>
+    <intent>
+      <action android:name="android.intent.action.VIEW"/>
+      <data android:scheme="http"/>
+    </intent>
+    <intent>
+      <action android:name="android.intent.action.VIEW"/>
+    </intent>
+  </queries>
+  <uses-permission android:name="android.permission.READ_PHONE_NUMBERS"/>
+  <uses-permission android:name="android.permission.REORDER_TASKS"/>
+  <uses-permission android:name="android.permission.READ_MEDIA_VIDEO"/>
+  <uses-permission android:name="android.permission.READ_MEDIA_IMAGES"/>
+  <uses-permission android:name="android.permission.READ_MEDIA_VISUAL_USER_SELECTED"/>
+  <uses-permission android:name="android.permission.POST_NOTIFICATIONS"/>
+  <uses-permission android:name="android.permission.FOREGROUND_SERVICE_DATA_SYNC"/>
+  <uses-permission android:name="com.hsh.permission.SignaturePrivileged"/>
+  <uses-permission android:name="android.permission.FOREGROUND_SERVICE_CAMERA"/>
+  <uses-permission android:name="android.permission.FOREGROUND_SERVICE_MICROPHONE"/>
+  <uses-permission android:name="android.permission.USE_FULL_SCREEN_INTENT"/>
+  <uses-permission android:name="android.permission.DISABLE_KEYGUARD"/>
+  <uses-permission android:name="android.permission.BLUETOOTH"/>
+  <uses-permission android:name="android.permission.BLUETOOTH_CONNECT"/>
+  <uses-permission android:name="com.google.android.gms.permission.AD_ID"/>
+  <uses-permission android:name="android.permission.READ_BASIC_PHONE_STATE"/>
+  <uses-permission android:name="com.sec.android.provider.badge.permission.READ"/>
+  <uses-permission android:name="com.sec.android.provider.badge.permission.WRITE"/>
+  <uses-permission android:name="com.htc.launcher.permission.READ_SETTINGS"/>
+  <uses-permission android:name="com.htc.launcher.permission.UPDATE_SHORTCUT"/>
+  <uses-permission android:name="com.sonyericsson.home.permission.BROADCAST_BADGE"/>
+  <uses-permission android:name="com.sonyme.home.permission.PROVIDER_INSERT_BADGE"/>
+  <uses-permission android:name="com.anddoes.launcher.permission.UPDATE_COUNT"/>
+  <uses-permission android:name="com.majeur.launcher.permission.UPDATE_BADGE"/>
+  <uses-permission android:name="com.huawei.android.launcher.permission.CHANGE_BADGE"/>
+  <uses-permission android:name="com.huawei.android.launcher.permission.READ_SETTINGS"/>
+  <uses-permission android:name="com.huawei.android.launcher.permission.WRITE_SETTINGS"/>
+  <uses-permission android:name="android.permission.READ_APP_BADGE"/>
+  <uses-permission android:name="com.oppo.launcher.permission.READ_SETTINGS"/>
+  <uses-permission android:name="com.oppo.launcher.permission.WRITE_SETTINGS"/>
+  <uses-permission android:name="android.permission.USE_BIOMETRIC"/>
+  <uses-permission android:name="android.permission.USE_FINGERPRINT"/>
+  <uses-permission android:name="android.permission.DOWNLOAD_WITHOUT_NOTIFICATION"/>
+  <uses-permission android:name="android.permission.ACCESS_ADSERVICES_TOPICS"/>
+  <uses-permission android:name="android.permission.ACCESS_ADSERVICES_ATTRIBUTION"/>
+  <uses-permission android:name="com.android.vending.BILLING"/>
+  <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE"/>
+  <uses-permission android:name="com.applovin.array.apphub.permission.BIND_APPHUB_SERVICE"/>
+  <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE"/>
+  <uses-permission android:name="android.permission.ACCESS_ADSERVICES_AD_ID"/>
+  <permission
+    android:name="com.hsh.me.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+    android:protectionLevel="signature"/>
+  <uses-permission android:name="com.hsh.me.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"/>
+  <uses-permission android:name="com.google.android.providers.gsf.permission.READ_GSERVICES"/>
+  <application
+    android:allowBackup="false"
+    android:appComponentFactory="com.hsh.me.hshAppComponentFactory"
+    android:dataExtractionRules="@xml/backup_rules_android12_and_above"
+    android:extractNativeLibs="false"
+    android:fullBackupContent="@xml/backup_rules_android11_and_below"
+    android:hardwareAccelerated="true"
+    android:icon="@mipmap/app_icon"
+    android:label="@string/title.app"
+    android:largeHeap="true"
+    android:name="com.hsh.me.hshAppApplication"
+    android:supportsRtl="true"
+    android:theme="@style/hshAppTheme"
+    android:usesCleartextTraffic="false">
+    <meta-data
+      android:name="android.max_aspect"
+      android:value="2.2"/>
+    <activity
+      android:configChanges="keyboardHidden|orientation|screenSize"
+      android:exported="true"
+      android:launchMode="singleTask"
+      android:name="com.hsh.me.android.hshActivity"
+      android:noHistory="true"
+      android:theme="@style/hshAppTheme.SplashScreen"
+      android:windowSoftInputMode="adjustResize|stateAlwaysHidden">
+      <intent-filter>
+        <action android:name="android.intent.action.MAIN"/>
+        <category android:name="android.intent.category.LAUNCHER"/>
+      </intent-filter>
+      <intent-filter>
+        <category android:name="profile"/>
+        <category android:name="matches"/>
+        <category android:name="visitors"/>
+        <category android:name="messages"/>
+        <category android:name="encounters"/>
+        <category android:name="chat"/>
+        <category android:name="favourites"/>
+        <category android:name="own_profile"/>
+        <category android:name="people_nearby"/>
+        <category android:name="photo_ratings"/>
+        <category android:name="settings"/>
+        <category android:name="award"/>
+        <category android:name="open_web_page"/>
+        <category android:name="open_app_store"/>
+        <category android:name="upgrade"/>
+        <category android:name="hot_list_progress"/>
+        <category android:name="fans"/>
+        <category android:name="friend_of_friends"/>
+      </intent-filter>
+      <intent-filter android:autoVerify="true">
+        <action android:name="android.intent.action.VIEW"/>
+        <category android:name="android.intent.category.DEFAULT"/>
+        <category android:name="android.intent.category.BROWSABLE"/>
+        <data android:host="hsh.com"/>
+        <data android:host="m.hsh.com"/>
+        <data android:host="s.hsh.com"/>
+        <data android:host="mqa.hsh.com"/>
+        <data android:host="mlink.hsh.com"/>
+        <data android:host="mqalink.hsh.com"/>
+        <data android:host="bdo.to"/>
+        <data android:host="short-s.hsh.eu"/>
+        <data android:host="short-s.hsh.us"/>
+        <data android:host="hsh.eu"/>
+        <data android:host="hsh.us"/>
+        <data android:scheme="http"/>
+        <data android:scheme="https"/>
+        <data android:pathPrefix="/aa"/>
+      </intent-filter>
+      <intent-filter>
+        <action android:name="android.intent.action.VIEW"/>
+        <category android:name="android.intent.category.DEFAULT"/>
+        <category android:name="android.intent.category.BROWSABLE"/>
+        <data android:scheme="bds"/>
+        <data android:host="landto"/>
+        <data android:host="access"/>
+      </intent-filter>
+      <intent-filter>
